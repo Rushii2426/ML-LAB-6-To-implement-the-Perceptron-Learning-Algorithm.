@@ -1,16 +1,14 @@
 # ML-LAB-6-To-implement-the-Perceptron-Learning-Algorithm.
 
 ## Theory
-An Artificial Neural Network (ANN) is a supervised machine learning model inspired by the structure of the human brain. It consists of interconnected layers of neurons that learn patterns from data.
+The Perceptron is a supervised machine learning algorithm used for binary classification. It is one of the simplest artificial neural network models and consists of input features, weights, a bias, and an activation function.
 
-In this experiment, the **Seeds Dataset** is used to classify samples into three classes. The dataset is divided into training and testing sets, and the input features are standardized using StandardScaler.
+The algorithm calculates a weighted sum of the input features and applies a step activation function to predict the output class. If the prediction is incorrect, the weights and bias are updated using the perceptron learning rule.
 
-A neural network with two hidden layers using ReLU activation and an output layer using Softmax activation is implemented. The model is trained using the Adam optimizer and sparse categorical cross-entropy loss. Early stopping is used to prevent unnecessary training.
-
-The model is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix.
+The learning process continues until the model classifies the training samples correctly or reaches the maximum number of iterations. The Perceptron works best for linearly separable datasets.
 
 ## Objective
-To implement an Artificial Neural Network for multiclass classification using the Seeds Dataset.
+To implement the Perceptron Learning Algorithm and understand how it learns to classify data by updating weights and bias.
 
 ## Result
-The ANN model is trained to classify seed samples into three classes and evaluated using standard classification metrics.
+The Perceptron Learning Algorithm is implemented to perform classification using the training data and evaluate its predictions.
