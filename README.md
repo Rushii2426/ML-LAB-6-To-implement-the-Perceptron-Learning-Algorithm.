@@ -1,7 +1,7 @@
 # ML-LAB-6-To-implement-the-Perceptron-Learning-Algorithm.
 
 
-📌 Aim
+📌 Aim:-
 To implement an Artificial Neural Network (ANN) model for classification of seed varieties using the Seeds dataset and evaluate its performance using different classification metrics.
 
 📖 About the Experiment
