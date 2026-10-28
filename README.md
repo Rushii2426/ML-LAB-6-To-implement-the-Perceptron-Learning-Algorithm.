@@ -1,14 +1,40 @@
 # ML-LAB-6-To-implement-the-Perceptron-Learning-Algorithm.
 
-## Theory
-The Perceptron is a supervised machine learning algorithm used for binary classification. It is one of the simplest artificial neural network models and consists of input features, weights, a bias, and an activation function.
 
-The algorithm calculates a weighted sum of the input features and applies a step activation function to predict the output class. If the prediction is incorrect, the weights and bias are updated using the perceptron learning rule.
+📌 Aim
+To implement an Artificial Neural Network (ANN) model for classification of seed varieties using the Seeds dataset and evaluate its performance using different classification metrics.
 
-The learning process continues until the model classifies the training samples correctly or reaches the maximum number of iterations. The Perceptron works best for linearly separable datasets.
+📖 About the Experiment
+In this experiment, an Artificial Neural Network is developed to classify different varieties of seeds based on their physical and geometric characteristics.
 
-## Objective
-To implement the Perceptron Learning Algorithm and understand how it learns to classify data by updating weights and bias.
+The dataset contains 210 samples belonging to 3 different classes.
+
+The model uses the following features:
+
+Area
+Perimeter
+Compactness
+Length of kernel
+Width of kernel
+Asymmetry coefficient
+Length of kernel groove
+The data is preprocessed, split into training and testing sets, scaled, and then given to the ANN model for classification.
+
+📊 Dataset
+Dataset: seeds_new.csv
+
+Dataset Information
+Total Samples: 210
+Number of Classes: 3
+Target: Class (1, 2, 3)
+Features: 7 numerical features
+Classes
+The model predicts one of the following three seed classes:
+
+Class 1
+Class 2
+Class 3
+
 
 ## Result
 The Perceptron Learning Algorithm is implemented to perform classification using the training data and evaluate its predictions.
