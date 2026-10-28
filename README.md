@@ -21,7 +21,7 @@ Asymmetry coefficient
 Length of kernel groove
 The data is preprocessed, split into training and testing sets, scaled, and then given to the ANN model for classification.
 
-📊 Dataset
+📊 Dataset:-
 
 Dataset: seeds_new.csv
 
@@ -37,5 +37,5 @@ Class 1
 Class 2
 Class 3
 
-Result
+Result:-
 The Perceptron Learning Algorithm is implemented to perform classification using the training data and evaluate its predictions.
