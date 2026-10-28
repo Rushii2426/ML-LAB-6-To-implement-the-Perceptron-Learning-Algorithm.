@@ -4,7 +4,8 @@
 📌 Aim:-
 To implement an Artificial Neural Network (ANN) model for classification of seed varieties using the Seeds dataset and evaluate its performance using different classification metrics.
 
-📖 About the Experiment
+📖 About the Experiment:-
+
 In this experiment, an Artificial Neural Network is developed to classify different varieties of seeds based on their physical and geometric characteristics.
 
 The dataset contains 210 samples belonging to 3 different classes.
@@ -21,6 +22,7 @@ Length of kernel groove
 The data is preprocessed, split into training and testing sets, scaled, and then given to the ANN model for classification.
 
 📊 Dataset
+
 Dataset: seeds_new.csv
 
 Dataset Information
@@ -35,6 +37,5 @@ Class 1
 Class 2
 Class 3
 
-
-## Result
+Result
 The Perceptron Learning Algorithm is implemented to perform classification using the training data and evaluate its predictions.
